@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <title>사진일기</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Photo Gallery HTML Template">
+  <meta name="keywords" content="endGam,gGaming, magazine, html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="shortcut icon" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+
+  <!-- Main Stylesheets -->
+  <link rel="stylesheet" href="css/style.css" />
+
+
+  <!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+  <div id="validdd">
+    <input type="password" name="password" id="password" placeholder="entry code"> <br>
+    <br>
+    <button class="btn btn-primary" onclick="validate()">Let me seeee</button>
+  </div>
+
+  <div id="entirePage">
+
+    <!-- Page Preloder -->
+    <div id="preloder">
+      <div class="loader"></div>
+    </div>
+    
+    <!-- Top right elements -->
+    <!-- <div class="spacial-controls">
+      <div class="search-switch"><img src="img/search-icon.png" alt=""></div>
+      <div class="nav-switch-warp">
+        <div class="nav-switch">
+          <div class="ns-bar"></div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Top right elements end -->
+    
+    <div class="main-warp">
+      <!-- header section -->
+      <header class="header-section">
+        <div class="header-close">
+          <i class="fa fa-times"></i>
+        </div>
+        <div class="header-warp">
+          <!-- <a href="" class="site-logo"> -->
+            <img src="./img/gallery/logo.png" alt="">
+          <!-- </a> -->
+          <img src="img/menu-icon.png" alt="" class="menu-icon">
+          <ul class="main-menu">
+            <!-- <li><a href="./index.html">Home</a></li> -->
+            <li class="active"><a href="./index.html" style="font-size:x-large;">Gallery</a></li>
+            <!-- <li><a href="./gallery-single.html">Single gallery</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./contact.html">Contact</a></li> -->
+            </ul>
+            <!-- <div class="social-links-warp">
+              <div class="social-links">
+                <a href=""><i class="fa fa-behance"></i></a>
+                <a href=""><i class="fa fa-dribbble"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-pinterest"></i></a>
+              </div>
+              <div class="social-text">Find us on</div>
+            </div> -->
+          </div>
+          <div class="copyright">Colorlib 2018 @ All rights reserved</div>
+        </header>
+        <!-- header section end -->
+        
+        <!-- Page section -->
+        <div class="page-section gallery-page">
+          <ul class="portfolio-filter">
+            <li class="filter all active" data-filter="*" style="font-size: larger">All</li>
+            <li class="filter" data-filter=".travel" style="font-size: larger">Travel</li>
+            <li class="filter" data-filter=".family" style="font-size: larger">Family</li>
+            <li class="filter" data-filter=".food" style="font-size: larger">Food</li>
+            <li class="filter" data-filter=".friends" style="font-size: larger">Friends</li>
+            <li class="filter" data-filter=".me" style="font-size: larger">Me</li>
+          </ul>
+          <div class="portfolio-gallery">
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends28.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends19.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends30.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item travel"><img src="img/gallery/travel/travel2.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends21.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends17.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item me"><img src="img/gallery/me/me3.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends27.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends18.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends34.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends38.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends11.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends36.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends15.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item travel"><img src="img/gallery/travel/travel1.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item family"><img src="img/gallery/family/family6.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item family"><img src="img/gallery/family/family4.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends10.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item family"><img src="img/gallery/family/family2.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends26.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item family"><img src="img/gallery/family/family1.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends33.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends22.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends7.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends16.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item me"><img src="img/gallery/me/me2.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item me"><img src="img/gallery/me/me1.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item travel"><img src="img/gallery/travel/travel4.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item travel"><img src="img/gallery/travel/travel5.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends9.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item travel"><img src="img/gallery/travel/travel9.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends3.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item food"><img src="img/gallery/food/food4.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item family"><img src="img/gallery/family/family3.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends24.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item me"><img src="img/gallery/me/me4.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item family"><img src="img/gallery/family/family5.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item family"><img src="img/gallery/family/family7.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends12.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends37.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends35.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item travel"><img src="img/gallery/travel/travel6.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends32.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends14.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends2.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item travel"><img src="img/gallery/travel/travel8.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends6.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends31.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item food"><img src="img/gallery/food/food1.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends25.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends8.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends23.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends29.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item travel"><img src="img/gallery/travel/travel7.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item travel"><img src="img/gallery/travel/travel3.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item food"><img src="img/gallery/food/food3.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends5.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends4.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends1.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item food"><img src="img/gallery/food/food2.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends20.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item friends"><img src="img/gallery/friends/friends13.jpg" alt=""><div class="hover-links"><a href="./gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item food"><img src="img/gallery/food/food5.jpg" alt=""><div class="hover-links"><a href="/gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item food"><img src="img/gallery/food/food10.jpg" alt=""><div class="hover-links"><a href="/gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item food"><img src="img/gallery/food/food9.jpg" alt=""><div class="hover-links"><a href="/gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item food"><img src="img/gallery/food/food7.jpg" alt=""><div class="hover-links"><a href="/gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item food"><img src="img/gallery/food/food6.jpg" alt=""><div class="hover-links"><a href="/gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+            <div class="gallery-item food"><img src="img/gallery/food/food8.jpg" alt=""><div class="hover-links"><a href="/gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+
+      </div>
+
+    </div>
+    <!-- Page section end-->
+  </div>
+  
+  <!-- Search model -->
+  <!-- <div class="search-model">
+    <div class="h-100 d-flex align-items-center justify-content-center">
+      <div class="search-close-switch">x</div>
+      <form class="search-moderl-form">
+        <input type="text" id="search-input" placeholder="Search here.....">
+      </form>
+    </div>
+  </div> -->
+  <!-- Search model end -->
+
+  </div>
+  
+  <!--====== Javascripts & Jquery ======-->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/circle-progress.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/valid.js"></script>
+  
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+<div class="gallery-item food"><img src="img/gallery/food/food5.jpg" alt=""><div class="hover-links"><a href="/gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+<div class="gallery-item food"><img src="img/gallery/food/food10.jpg" alt=""><div class="hover-links"><a href="/gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+<div class="gallery-item food"><img src="img/gallery/food/food9.jpg" alt=""><div class="hover-links"><a href="/gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+<div class="gallery-item food"><img src="img/gallery/food/food7.jpg" alt=""><div class="hover-links"><a href="/gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+<div class="gallery-item food"><img src="img/gallery/food/food6.jpg" alt=""><div class="hover-links"><a href="/gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
+<div class="gallery-item food"><img src="img/gallery/food/food8.jpg" alt=""><div class="hover-links"><a href="/gallery-single.html" class="site-btn sb-light">자세히</a></div></div>
